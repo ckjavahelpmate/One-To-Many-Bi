@@ -44,9 +44,6 @@ public class TestSaveMobile {
 		
 		entityTransaction.begin();
 		entityManager.persist(mobile);
-		entityManager.persist(sim3);
-//		entityManager.persist(sim2);
-		entityManager.persist(sim1);
 		entityTransaction.commit();
 
 	}
